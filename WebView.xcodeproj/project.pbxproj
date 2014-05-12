@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33E01979ABC4357A5FAFD12 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FA72DF96D14701B22036D2 /* libPods.a */; };
 		F76EE46219204F2200F005C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76EE46119204F2200F005C5 /* Foundation.framework */; };
 		F76EE46419204F2200F005C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76EE46319204F2200F005C5 /* CoreGraphics.framework */; };
 		F76EE46619204F2200F005C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76EE46519204F2200F005C5 /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		F76EE47D19204F2200F005C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76EE46519204F2200F005C5 /* UIKit.framework */; };
 		F76EE48519204F2200F005C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F76EE48319204F2200F005C5 /* InfoPlist.strings */; };
 		F76EE48719204F2200F005C5 /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EE48619204F2200F005C5 /* WebViewTests.m */; };
+		F76EE49219204F2F00F005C5 /* DKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EE49119204F2F00F005C5 /* DKWebViewController.m */; };
+		F76EE4951920599B00F005C5 /* DKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EE4941920599B00F005C5 /* DKSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67FA72DF96D14701B22036D2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57A20307B4340A3A8765785 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F76EE45E19204F2200F005C5 /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76EE46119204F2200F005C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F76EE46319204F2200F005C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,11 @@
 		F76EE48219204F2200F005C5 /* WebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewTests-Info.plist"; sourceTree = "<group>"; };
 		F76EE48419204F2200F005C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F76EE48619204F2200F005C5 /* WebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTests.m; sourceTree = "<group>"; };
+		F76EE49019204F2F00F005C5 /* DKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWebViewController.h; sourceTree = "<group>"; };
+		F76EE49119204F2F00F005C5 /* DKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWebViewController.m; sourceTree = "<group>"; };
+		F76EE4931920599B00F005C5 /* DKSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSettingsViewController.h; sourceTree = "<group>"; };
+		F76EE4941920599B00F005C5 /* DKSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSettingsViewController.m; sourceTree = "<group>"; };
+		F7A104681920678F0074347A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 				F76EE46419204F2200F005C5 /* CoreGraphics.framework in Frameworks */,
 				F76EE46619204F2200F005C5 /* UIKit.framework in Frameworks */,
 				F76EE46219204F2200F005C5 /* Foundation.framework in Frameworks */,
+				C33E01979ABC4357A5FAFD12 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 				F76EE48019204F2200F005C5 /* WebViewTests */,
 				F76EE46019204F2200F005C5 /* Frameworks */,
 				F76EE45F19204F2200F005C5 /* Products */,
+				B57A20307B4340A3A8765785 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +112,7 @@
 				F76EE46319204F2200F005C5 /* CoreGraphics.framework */,
 				F76EE46519204F2200F005C5 /* UIKit.framework */,
 				F76EE47A19204F2200F005C5 /* XCTest.framework */,
+				67FA72DF96D14701B22036D2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +120,13 @@
 		F76EE46719204F2200F005C5 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				F76EE4931920599B00F005C5 /* DKSettingsViewController.h */,
+				F76EE4941920599B00F005C5 /* DKSettingsViewController.m */,
+				F76EE49019204F2F00F005C5 /* DKWebViewController.h */,
+				F76EE49119204F2F00F005C5 /* DKWebViewController.m */,
 				F76EE47019204F2200F005C5 /* DKAppDelegate.h */,
 				F76EE47119204F2200F005C5 /* DKAppDelegate.m */,
+				F7A104681920678F0074347A /* Constants.h */,
 				F76EE47319204F2200F005C5 /* Images.xcassets */,
 				F76EE46819204F2200F005C5 /* Supporting Files */,
 			);
@@ -151,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F76EE48A19204F2200F005C5 /* Build configuration list for PBXNativeTarget "WebView" */;
 			buildPhases = (
+				5FB003B2CF434ACAAD4C7CB8 /* Check Pods Manifest.lock */,
 				F76EE45A19204F2200F005C5 /* Sources */,
 				F76EE45B19204F2200F005C5 /* Frameworks */,
 				F76EE45C19204F2200F005C5 /* Resources */,
+				D684904B277749F1A18BEDC6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,13 +255,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FB003B2CF434ACAAD4C7CB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D684904B277749F1A18BEDC6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F76EE45A19204F2200F005C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76EE4951920599B00F005C5 /* DKSettingsViewController.m in Sources */,
 				F76EE46E19204F2200F005C5 /* main.m in Sources */,
 				F76EE47219204F2200F005C5 /* DKAppDelegate.m in Sources */,
+				F76EE49219204F2F00F005C5 /* DKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +412,7 @@
 		};
 		F76EE48B19204F2200F005C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57A20307B4340A3A8765785 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -370,6 +426,7 @@
 		};
 		F76EE48C19204F2200F005C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57A20307B4340A3A8765785 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -440,6 +497,7 @@
 				F76EE48C19204F2200F005C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F76EE48D19204F2200F005C5 /* Build configuration list for PBXNativeTarget "WebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +506,7 @@
 				F76EE48F19204F2200F005C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
