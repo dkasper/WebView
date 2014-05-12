@@ -7,7 +7,7 @@ Supports both iPhone and iPad.
 
 Allows configuration for a few settings including scalesPageToFit and suppressesIncrementalRendering
 
-Targets iOS 7, could probably work for iOS 6 with a few settings updates.
+Targets iOS 7, could probably work for iOS 6 with a few configuration adjustments.
 
 Building
 ------------
